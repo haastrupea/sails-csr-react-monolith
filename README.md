@@ -4,7 +4,7 @@ For a server side rendered setup using next.js, check [this project](https://git
 
 # NOTICE 
 
-There is a copy of .env.example file in the frontend folder.
+There is a copy of ``.env.example`` file in the frontend folder.
 
 I have gone ahead to make the build folder ``` assets```.
 
