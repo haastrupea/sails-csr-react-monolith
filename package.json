@@ -26,6 +26,8 @@
     "npm:build:frontend": "cd frontend && npm run build",
     "yarn:install:frontend": "cd frontend && yarn",
     "npm:install:frontend": "cd frontend && npm i",
+    "yarn:dev:frontend": "cd frontend && yarn start",
+    "npm:dev:frontend": "cd frontend && npm start",
     "yarn:start:project": " npm run yarn:build:frontend && npm start",
     "npm:start:project": " npm run npm:build:frontend && npm start"
 
