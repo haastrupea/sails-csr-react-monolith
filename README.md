@@ -7,28 +7,36 @@ I have gone ahead to make the build folder ``` assets```.
 
 You can specify your own, but first, take a look at [sails documentation](https://sailsjs.com/documentation/concepts/assets) here before you do.
 
-# Setup process
 
-- set the value of ```sails.config.sockets.onlyAllowOrigins``` in ```config/env/production.js on line 257
-
-- create a ``.env`` file inside ``frontend`` folder and paste the content of ``.env.example`` into it
+# Installation process
 
 - to install the react app 
     - using yarn run ```npm run yarn:install:frontend```
     - using npm run ```npm run npm:install:frontend```
+
+# Building React app
+
+- create a ``.env`` file inside ``frontend`` folder and paste the content of ``.env.example`` into it
+
 - to build the react app
     - using yarn ```npm run yarn:build:frontend```
     - using npm ```npm run npm:build:frontend```
+# Production Setup process
 
---for production mode, you can go ahead and load it up with ```npm start```
+- set the value of ```sails.config.sockets.onlyAllowOrigins``` in ```config/env/production.js``` on line 257 or follow [deploy Sails app](https://sailsjs.com/documentation/concepts/deployment) instruction in sails documentation
 
-- if you want to build react and lift sails in one command after you have installed react with your desired package manager (yarn/npm)
+- You can start sails in production ```npm start```
 
-    - to build the react app
-        - using yarn ```yarn:start:project```
-        - using npm ```yarn:start:project```
+- if you want to build react and lift sails in one command after you have installation process with your desired package manager (yarn/npm)
 
+    - using yarn ```npm run yarn:start:project```
+    - using npm ```npm run npm:start:project```
+
+# Development Setup
 - go ahead and lift the sails app with ```sails lift``` for development mode
+- then, to start react in dev mode run
+    - using yarn ```npm run yarn:dev:frontend```
+    - using npm ```npm run npm:dev:frontend```
 
 
 ### Links
