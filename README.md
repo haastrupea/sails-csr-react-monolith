@@ -1,12 +1,14 @@
-# sails-react
-a [Sails v1](https://sailsjs.com) application.
+# sails-react monolith setup
+this is a  [Sails v1](https://sailsjs.com) application setup with client-side rendered react app. 
+For a server side rendered setup using next.js, check [this project](https://github.com/RasCarlito/sails-hook-next) out
+
+# NOTICE 
 
 There is a copy of .env.example file in the frontend folder.
 
 I have gone ahead to make the build folder ``` assets```.
 
 You can specify your own, but first, take a look at [sails documentation](https://sailsjs.com/documentation/concepts/assets) here before you do.
-
 
 # Installation process
 
@@ -27,18 +29,22 @@ You can specify your own, but first, take a look at [sails documentation](https:
 
 - You can start sails in production ```npm start```
 
-- if you want to build react and lift sails in one command after you have installation process with your desired package manager (yarn/npm)
+### To build react and lift sails in production mode with a single command
 
     - using yarn ```npm run yarn:start:project```
     - using npm ```npm run npm:start:project```
 
 # Development Setup
 - go ahead and lift the sails app with ```sails lift``` for development mode
+
 - then, to start react in dev mode run
     - using yarn ```npm run yarn:dev:frontend```
     - using npm ```npm run npm:dev:frontend```
 
+### To run react and lift sails in development mode with a single command
 
+    - using yarn ```npm run yarn:dev:project```
+    - using npm ```npm run npm:dev:project```
 ### Links
 
 + [Sails framework documentation](https://sailsjs.com/get-started)
